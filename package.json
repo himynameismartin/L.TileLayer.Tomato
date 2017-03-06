@@ -1,0 +1,26 @@
+{
+  "name": "L.TileLayer.Tomato",
+  "version": "0.0.1",
+  "description": "A WebTorrent Map Tiles Provider",
+  "keywords": [
+    "Leaflet",
+    "WebTorrent",
+    "tiles"
+  ],
+  "main": "L.TileLayer.Tomato.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:himynameismartin/L.TileLayer.Tomato.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "himynameismartin",
+  "license": "CC0",
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}

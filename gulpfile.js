@@ -6,7 +6,7 @@ gulp.task('babel', function() {
         .pipe(babel({
             presets: ['es2015', 'stage-3']
         }))
-        .pipe(gulp.dest(''))
+        .pipe(gulp.dest('dist'))
 });
 
 gulp.task('default', ['babel']);
